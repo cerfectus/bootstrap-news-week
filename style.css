@@ -1,0 +1,35 @@
+.nav-bar nav {
+    height: 50px;
+    background-color: #f72210;
+}
+
+.box-1 {
+    width: 80px;
+    height: 26px;
+}
+
+.a-back {
+    display:flex;
+    flex-basis: 100%;
+    color: white;
+    font-size: 18px;
+    padding: 6px 12px;
+}
+
+
+.a-background {
+    background-color: white;
+    color: #f72210;
+    display:flex;
+    flex-basis: 100%;
+    font-size: 18px;
+    padding: 6px 12px;
+}
+
+.icon-1 {
+    padding: 6px 12px;
+}
+
+@media screen and (min-width: 700px){
+
+}
