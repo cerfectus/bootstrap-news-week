@@ -50,6 +50,7 @@
     display:flex;
     flex-direction: column;
     width: 100%;
+    max-width: 532px;
 }
 
 .text-1 {
@@ -70,16 +71,33 @@
 }
 
 .espacio {
-    margin: 10px;
+    margin: 20px;
+    max-width: 470px;
+    padding-top: 5px;
+    border-top: rgba(3,3,3,.4) solid 2px;
+    border-bottom: rgba(3,3,3,.4) solid 2px;
 }
 
 h3 {
     margin: 10px;
 }
 
-.caja-1 {
-    width: 
+.part-3 {
+    background-color: #f4f5f7;
+    margin: 20px;
+    box-sizing: border-box;
 }
+
+.a-text-1 {
+    color: rgba(3,3,3,.4);
+}
+
+.img-china {
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+}
+
 
 @media screen and (min-width: 700px){
 
