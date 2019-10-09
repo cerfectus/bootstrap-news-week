@@ -33,7 +33,6 @@
     padding: 6px 12px;
 }
 
-
 .a-background {
     background-color: white;
     color: #f72210;
@@ -45,6 +44,41 @@
 
 .icon-1 {
     padding: 6px 12px;
+}
+
+.daddyo-1 {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.text-1 {
+    color: rgba(3,3,3,.4);
+}
+
+.image-1 {
+    max-width: 720px;
+    max-height: 445px;
+    vertical-align: middle;
+    
+}
+
+.flex-daddy {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.espacio {
+    margin: 10px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+.caja-1 {
+    width: 
 }
 
 @media screen and (min-width: 700px){
