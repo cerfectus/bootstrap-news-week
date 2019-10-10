@@ -61,6 +61,8 @@
     max-width: 720px;
     max-height: 445px;
     vertical-align: middle;
+    width: auto;
+    height: auto;
     
 }
 
@@ -89,7 +91,12 @@ h3 {
 }
 
 .a-text-1 {
-    color: rgba(3,3,3,.4);
+    color: rgba(3,3,3,.4) !important;
+}
+
+.a-text-2 {
+    background-color: #c2d4d7;
+    color: #272727 !important;
 }
 
 .img-china {
