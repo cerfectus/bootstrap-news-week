@@ -110,5 +110,8 @@ h3 {
 
 
 @media screen and (min-width: 700px){
-    
+    .caja-2 {
+        display:flex;
+        flex-direction: row;
+    }
 }
