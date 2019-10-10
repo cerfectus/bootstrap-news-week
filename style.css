@@ -62,8 +62,7 @@
     max-height: 445px;
     vertical-align: middle;
     width: auto;
-    height: auto;
-    
+    height: auto; 
 }
 
 .flex-daddy {
@@ -88,6 +87,8 @@ h3 {
     background-color: #f4f5f7;
     margin: 20px;
     box-sizing: border-box;
+    max-width: 480px;
+    
 }
 
 .a-text-1 {
@@ -103,9 +104,11 @@ h3 {
     box-sizing: border-box;
     overflow: hidden;
     width: 100%;
+    max-width: 450px;
+    max-height: 300px; 
 }
 
 
 @media screen and (min-width: 700px){
-
+    
 }
