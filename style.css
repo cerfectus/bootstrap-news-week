@@ -79,6 +79,10 @@ a {
     color: rgba(3,3,3,.4);
 }
 
+.text-margin-0 {
+    margin: 0 15px 0 15px;
+}
+
 .image-1 {
     max-width: 720px;
     max-height: 445px;
@@ -169,18 +173,15 @@ h3 {
     
 }
 
-
 @media (min-width: 768px) {
     .caja-2 {
         display:flex;
         flex-direction: row;
+        margin: 0 30px 0 30px;
     }
     .col-width-1 {
         max-width: 536px;
         order: 2;
-    }
-    .espacio {
-        max-height: 180px;
     }
     .col-width-2 {
         max-width: 346px;
@@ -189,6 +190,15 @@ h3 {
     .column-container {
         display:flex;
         flex-direction: row;
+    }
+    .flex-daddy img{
+        display: block;
+        max-height: 100px;
+        height: auto;
+        max-width: 132px;
+    }
+    div .flex-daddy col {
+        max-width: 135px;
     }
 }
 
