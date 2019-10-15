@@ -32,7 +32,7 @@ a {
 }
 
 .col-width-1 {
- max-width: 533px;
+ max-width: 765px;
 }
 
 .daddy-1 {
@@ -69,7 +69,6 @@ a {
     display:flex;
     flex-direction: column;
     width: 100%;
-    max-width: 532px;
 }
 
 .text-1 {
@@ -92,7 +91,6 @@ a {
 
 .espacio {
     margin: 20px;
-    max-width: 470px;
     padding-top: 5px;
     border-top: 1px solid #ddd;
 }
@@ -104,7 +102,6 @@ h3 {
 .part-3 {
     background-color: #f4f5f7;
     box-sizing: border-box;
-    max-width: 480px;
     margin: 0 20px 0 20px;
 }
 
@@ -125,10 +122,38 @@ h3 {
     max-height: 300px; 
 }
 
+.art-color-1 {
+    background-color: #f4f5f7;
+}
 
-@media screen and (min-width: 700px){
+.textColor {
+    color:#f4f5f7 !important;
+}
+
+
+
+@media (min-width: 576px) {
+
+    
+}
+
+
+@media (min-width: 768px) {
     .caja-2 {
         display:flex;
         flex-direction: row;
     }
+    .col-width-1 {
+        max-width: 536px;
+    }
+}
+
+
+@media (min-width: 992px) { 
+
+}
+
+
+@media (min-width: 1200px) {
+
 }
