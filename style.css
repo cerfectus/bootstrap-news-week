@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 h6 {
     font-size: 16px;
 }
@@ -130,7 +134,35 @@ h3 {
     color:#f4f5f7 !important;
 }
 
+.col-width-2 {
+    width:100%;
+    height: auto;
+}
 
+.back-img {
+    min-height: 216px;
+    height: auto;
+    min-width: 316px;
+    background: url("https://d.newsweek.com/en/full/1536177/samos.jpg?w=397&h=265&q=90&f=a234d553d7b4ca52907fdd450b9fb394") no-repeat;
+    
+    max-width: 100%;
+    vertical-align: middle;
+    background-size: cover;
+    display:flex;
+}
+
+.article-1 {
+    margin: 0 20px 0 20px;
+}
+
+.h4-text {
+    background-color:rgba(255, 255, 255, 0.9);
+    color: rgb(247, 34, 16);
+    max-width: 70px;
+    max-height: 50px;
+    align-self: flex-end;
+    margin-bottom: 0;
+}
 
 @media (min-width: 576px) {
 
@@ -145,6 +177,18 @@ h3 {
     }
     .col-width-1 {
         max-width: 536px;
+        order: 2;
+    }
+    .espacio {
+        max-height: 180px;
+    }
+    .col-width-2 {
+        max-width: 346px;
+        order: 1;
+    }
+    .column-container {
+        display:flex;
+        flex-direction: row;
     }
 }
 
