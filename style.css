@@ -205,12 +205,13 @@ h3 {
     order: 2;
   }
   .col-width-2 {
-    max-width: 346px;
+    max-width: 446px;
     order: 1;
   }
   .column-container {
     display: flex;
     flex-direction: row;
+    max-width: 992px;
   }
 
   .flex-daddy img {
