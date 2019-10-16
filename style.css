@@ -1,213 +1,245 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h6 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 img {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
-
 .nav-bar nav {
-    height: 50px;
-    background-color: #f72210;
+  height: 50px;
+  background-color: #f72210;
 }
 
 .svg-stylez {
-    fill:white; 
-    width:202px; 
-    position:absolute; 
-    top:20px; 
-    left:10px;
+  fill: white;
+  width: 202px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
 }
 
 .box-1 {
-    width: 80px;
-    height: 26px;
+  width: 80px;
+  height: 26px;
 }
 
 .col-width-1 {
- max-width: 765px;
+  max-width: 765px;
 }
 
 .daddy-1 {
-    margin: 10px;
+  margin: 10px;
 }
 
 .margin-icon {
-    margin: -5px;
-    margin-left: 5px;
+  margin: -5px;
+  margin-left: 5px;
 }
 
 .a-back {
-    display:flex;
-    flex-basis: 100%;
-    color: white;
-    font-size: 18px;
-    padding: 6px 12px;
+  display: flex;
+  flex-basis: 100%;
+  color: white;
+  font-size: 18px;
+  padding: 6px 12px;
 }
 
 .a-background {
-    background-color: white;
-    color: #f72210;
-    display:flex;
-    flex-basis: 100%;
-    font-size: 18px;
-    padding: 6px 12px;
+  background-color: white;
+  color: #f72210;
+  display: flex;
+  flex-basis: 100%;
+  font-size: 18px;
+  padding: 6px 12px;
 }
 
 .icon-1 {
-    padding: 6px 12px;
+  padding: 6px 12px;
 }
 
 .daddyo-1 {
-    display:flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .text-1 {
-    color: rgba(3,3,3,.4);
+  color: rgba(3, 3, 3, 0.4);
 }
 
 .text-margin-0 {
-    margin: 0 15px 0 15px;
+  margin: 0 15px 0 15px;
 }
 
 .image-1 {
-    max-width: 720px;
-    max-height: 445px;
-    vertical-align: middle;
-    width: auto;
-    height: auto; 
+  max-width: 720px;
+  max-height: 445px;
+  vertical-align: middle;
+  width: auto;
+  height: auto;
+}
+
+.columns-container {
+    margin: 0 10px 0 10px;
 }
 
 .flex-daddy {
-    display:flex;
-    flex-direction: row;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .espacio {
-    margin: 20px;
-    padding-top: 5px;
-    border-top: 1px solid #ddd;
+  margin: 20px;
+  padding-top: 5px;
+  border-top: 1px solid #ddd;
 }
 
 h3 {
-    margin: 10px;
+  margin: 10px;
 }
 
 .part-3 {
-    background-color: #f4f5f7;
-    box-sizing: border-box;
-    margin: 0 20px 0 20px;
+  background-color: #f4f5f7;
+  box-sizing: border-box;
+  margin: 0 20px 0 20px;
 }
 
 .a-text-1 {
-    color: rgba(3,3,3,.4) !important;
+  color: rgba(3, 3, 3, 0.4) !important;
 }
 
 .a-text-2 {
-    background-color: #c2d4d7;
-    color: #272727 !important;
+  background-color: #c2d4d7;
+  color: #272727 !important;
 }
 
 .img-china {
-    box-sizing: border-box;
-    overflow: hidden;
-    width: 100%;
-    max-width: 450px;
-    max-height: 300px; 
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 100%;
+  max-width: 450px;
+  max-height: 300px;
 }
 
 .art-color-1 {
-    background-color: #f4f5f7;
+  background-color: #f4f5f7;
 }
 
 .textColor {
-    color:#f4f5f7 !important;
+  color: #f4f5f7 !important;
 }
 
 .col-width-2 {
-    width:100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .back-img {
-    min-height: 216px;
-    height: auto;
-    min-width: 316px;
-    background: url("https://d.newsweek.com/en/full/1536177/samos.jpg?w=397&h=265&q=90&f=a234d553d7b4ca52907fdd450b9fb394") no-repeat;
-    
-    max-width: 100%;
-    vertical-align: middle;
-    background-size: cover;
-    display:flex;
+  min-height: 216px;
+  height: auto;
+  min-width: 316px;
+  background: url("https://d.newsweek.com/en/full/1536177/samos.jpg?w=397&h=265&q=90&f=a234d553d7b4ca52907fdd450b9fb394") no-repeat;
+  max-width: 100%;
+  vertical-align: middle;
+  background-size: cover;
+  display: flex;
+  height: 442px;
 }
 
 .article-1 {
-    margin: 0 20px 0 20px;
+  margin: 0 20px 0 20px;
 }
 
 .h4-text {
-    background-color:rgba(255, 255, 255, 0.9);
-    color: rgb(247, 34, 16);
-    max-width: 70px;
-    max-height: 50px;
-    align-self: flex-end;
-    margin-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: rgb(247, 34, 16);
+  max-width: 70px;
+  max-height: 50px;
+  align-self: flex-end;
+  margin-bottom: 0;
+}
+
+.img-size-1 {
+  width: 63px;
+  height: 63px;
+  padding: 0;
+  margin: 0 15px 0 15px;
+}
+
+.opinion-section {
+  margin: 0 20px 0 20px;
+}
+
+.div-sect {
+  margin-top: 10px;
+}
+
+.art-margin {
+  margin: 20px;
+  border-bottom: solid black 1px;
 }
 
 @media (min-width: 576px) {
-
-    
 }
 
 @media (min-width: 768px) {
-    .caja-2 {
-        display:flex;
-        flex-direction: row;
-        margin: 0 30px 0 30px;
-    }
-    .col-width-1 {
-        max-width: 536px;
-        order: 2;
-    }
-    .col-width-2 {
-        max-width: 346px;
-        order: 1;
-    }
-    .column-container {
-        display:flex;
-        flex-direction: row;
-    }
-    .flex-daddy img{
-        display: block;
-        max-height: 100px;
-        height: auto;
-        max-width: 132px;
-    }
-    div .flex-daddy col {
-        max-width: 135px;
-    }
+  .caja-2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 30px 0 30px;
+  }
+  .col-width-1 {
+    max-width: 536px;
+    order: 2;
+  }
+  .col-width-2 {
+    max-width: 346px;
+    order: 1;
+  }
+  .column-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flex-daddy img {
+    display: block;
+    max-height: 100px;
+    height: auto;
+    max-width: 132px;
+  }
+
+  div .flex-daddy col {
+    max-width: 135px;
+  }
+  .back-img {
+      height: 242px;
+  }
+
+
 }
 
-
-@media (min-width: 992px) { 
-
+@media (min-width: 992px) {
+  .columns-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .img-size-1 {
+    position: relative;
+    top: 20px;
+  }
 }
-
 
 @media (min-width: 1200px) {
-
 }
