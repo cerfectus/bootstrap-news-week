@@ -191,6 +191,31 @@ h3 {
   border-bottom: solid black 1px;
 }
 
+.back-img-10 {
+  min-height: 216px;
+  height: auto;
+  min-width: 316px;
+  max-width: 100%;
+  vertical-align: middle;
+  background-size: cover;
+  display: flex;
+  height: 442px;
+  background: url("https://d.newsweek.com/en/full/1531488/october-11-18-2019.jpg?w=360&h=480&q=90&f=8a6178c02956a944ee55a303cf81ef89") no-repeat;
+}
+
+.h4-text-10 {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #f72210;
+  max-width: 200px;
+  max-height: 50px;
+  align-self: flex-end;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.buttn-color {
+  background-color: #f4f5f6
+}
 @media (min-width: 576px) {
 }
 
