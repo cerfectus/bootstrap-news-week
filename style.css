@@ -3,6 +3,10 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+a {
+  color: black;
+}
+
 .container-fluid {
   max-width: 1310px;
 }
