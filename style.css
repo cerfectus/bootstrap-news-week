@@ -1,19 +1,6 @@
-* {
-  box-sizing: border-box;
-}
-
-h6 {
-  font-size: 16px;
-}
-
-img {
-  position: relative;
-  width: 100%;
-}
-
-a {
-  color: black;
-  text-decoration: none;
+body {
+  background: #f4f5f6;
+  font-family: 'Oswald', sans-serif;
 }
 
 .container-fluid {
@@ -113,207 +100,78 @@ main {
 .more-stories-box {
   padding: 10px 0;
 }
-
-.nav-bar nav {
-  height: 50px;
-  background-color: #f72210;
+<!---a
+.opinion-box {
+  padding: 5px;
 }
 
-.svg-stylez {
-  fill: white;
-  width: 202px;
-  position: absolute;
+.latest-news-box {
+  padding: 5px;
+}
+
+.right-column-container {
+  position: sticky;
+  top: 0;
+}
+
+.sing-up-container {
+  width: 320px;
+  background: rgba(0, 0, 0, 0.15);
+  border: solid 1px grey;
+  margin: 0 auto;
+}
+
+.in-the-magazine {
+  margin-top: 35px;
+}
+
+.category {
+  font-weight: bold;
+  padding: 2px;
+}
+
+.in-the-magazine-category .category:first-child {
+  background: red;
+}
+
+.editors-pick-category {
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.slide-category {
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.newsletter-box {
+  background-image: url("images/iphone.png");
+  background-repeat: no-repeat;
+  background-size: 80% 100%;
+  height: 345px;
+}
+
+.action-footer {
+  height: 370px;
+}
+
+.magazine-image {
+  width: 180px;
+  height: 280px;
+}
+
+.second-magazine {
   top: 20px;
-  left: 10px;
+  left: 90px;
 }
 
-.box-1 {
-  width: 80px;
-  height: 26px;
+.magazine-image-box {
+  width: 380px;
+  height: 315px;
+  margin: 0 auto;
+  position: relative;
 }
 
-.col-width-1 {
-  max-width: 765px;
-}
-
-.daddy-1 {
-  margin: 10px;
-}
-
-.margin-icon {
-  margin: -5px;
-  margin-left: 5px;
-}
-
-.a-back {
-  display: flex;
-  flex-basis: 100%;
-  color: white;
-  font-size: 18px;
-  padding: 6px 12px;
-}
-
-.a-background {
-  background-color: white;
-  color: #f72210;
-  display: flex;
-  flex-basis: 100%;
-  font-size: 18px;
-  padding: 6px 12px;
-}
-
-.icon-1 {
-  padding: 6px 12px;
-}
-
-.daddyo-1 {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.text-1 {
-  color: rgba(3, 3, 3, 0.4);
-}
-
-.text-margin-0 {
-  margin: 0 15px 0 15px;
-}
-
-.image-1 {
-  max-width: 720px;
-  max-height: 445px;
-  vertical-align: middle;
-  width: auto;
-  height: auto;
-}
-
-.columns-container {
-    margin: 0 10px 0 10px;
-}
-
-.flex-daddy {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-
-.espacio {
-  margin: 20px;
-  padding-top: 5px;
-  border-top: 1px solid #ddd;
-}
-
-h3 {
-  margin: 10px;
-}
-
-.part-3 {
-  background-color: #f4f5f7;
-  box-sizing: border-box;
-  margin: 0 20px 0 20px;
-}
-
-.a-text-1 {
-  color: rgba(3, 3, 3, 0.4) !important;
-}
-
-.a-text-2 {
-  background-color: #c2d4d7;
-  color: #272727 !important;
-}
-
-.img-china {
-  box-sizing: border-box;
-  overflow: hidden;
-  width: 100%;
-  max-width: 450px;
-  max-height: 300px;
-}
-
-.art-color-1 {
-  background-color: #f4f5f7;
-}
-
-.textColor {
-  color: #f4f5f7 !important;
-}
-
-.col-width-2 {
-  width: 100%;
-  height: auto;
-}
-
-.back-img {
-  min-height: 216px;
-  height: auto;
-  min-width: 316px;
-  background: url("https://d.newsweek.com/en/full/1536177/samos.jpg?w=397&h=265&q=90&f=a234d553d7b4ca52907fdd450b9fb394") no-repeat;
-  max-width: 100%;
-  vertical-align: middle;
-  background-size: cover;
-  display: flex;
-  height: 442px;
-}
-
-.article-1 {
-  margin: 0 20px 0 20px;
-}
-
-.h4-text {
-  background-color: rgba(255, 255, 255, 0.9);
-  color: rgb(247, 34, 16);
-  max-width: 70px;
-  max-height: 50px;
-  align-self: flex-end;
-  margin-bottom: 0;
-}
-
-.img-size-1 {
-  width: 63px;
-  height: 63px;
-  padding: 0;
-  margin: 0 15px 0 15px;
-}
-
-.opinion-section {
-  margin: 0 20px 0 20px;
-}
-
-.div-sect {
-  margin-top: 10px;
-}
-
-.art-margin {
-  margin: 20px;
-  border-bottom: solid black 1px;
-}
-
-.back-img-10 {
-  min-height: 216px;
-  height: auto;
-  min-width: 316px;
-  max-width: 100%;
-  vertical-align: middle;
-  background-size: cover;
-  display: flex;
-  height: 442px;
-  background: url("https://d.newsweek.com/en/full/1531488/october-11-18-2019.jpg?w=360&h=480&q=90&f=8a6178c02956a944ee55a303cf81ef89") no-repeat;
-}
-
-.h4-text-10 {
-  background-color: rgba(255, 255, 255, 0.9);
-  color: #f72210;
-  max-width: 200px;
-  max-height: 50px;
-  align-self: flex-end;
-  margin-bottom: 0;
-  font-size: 20px;
-}
-
-.buttn-color {
-  background-color: #f4f5f6
-}
 @media (min-width: 576px) {
 }
 
