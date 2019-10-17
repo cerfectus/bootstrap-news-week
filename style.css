@@ -16,6 +16,104 @@ a {
   text-decoration: none;
 }
 
+.container-fluid {
+  max-width: 1310px;
+}
+
+header {
+  margin: 0 auto;
+}
+
+footer {
+  margin: 0 auto;
+}
+
+.sign-in-btn {
+  background: red;
+}
+
+.subscribe-in-btn {
+  color: red;
+}
+
+.main-nav li a {
+  color: black;
+}
+
+.main-nav li a:hover {
+  color: red;
+}
+
+main {
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.main-nav-container {
+  margin-top: 100px;
+}
+
+.featured-stories {
+  position: sticky;
+  top: 0;
+}
+
+.stories-link {
+  color: black;
+}
+
+.stories-link:hover {
+  text-decoration-color: red;
+  color: black;
+}
+
+.header-central-logo img {
+  max-height: 100px;
+}
+
+.header-upper-row {
+  background: red;
+}
+
+.header-date {
+  padding: 25px;
+  padding-bottom: 10px;
+}
+
+.header-login {
+  padding: 25px;
+  padding-bottom: 10px;
+}
+
+.header-login button {
+  height: 35px;
+}
+
+.navbar-toggler-icon {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.hiddenNav {
+  position: fixed;
+  z-index: 1000;
+  right: 0;
+  margin-top: 10px;
+}
+
+.featured-category {
+  bottom: 0;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.culture-travel-box .footer {
+  padding: 5px;
+}
+
+.more-stories-box {
+  padding: 10px 0;
+}
+
 .nav-bar nav {
   height: 50px;
   background-color: #f72210;
