@@ -1,6 +1,6 @@
 body {
   background: #f4f5f6;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 a {
@@ -104,8 +104,7 @@ main {
 .more-stories-box {
   padding: 10px 0;
 }
-<!---a
-.opinion-box {
+<!---a .opinion-box {
   padding: 5px;
 }
 
